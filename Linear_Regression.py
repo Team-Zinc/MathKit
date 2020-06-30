@@ -74,9 +74,6 @@ and you can represent it as an equation with Y=Mx + B. In this case, that's Y={b
 where Y and x represent any given point on the line.
 """
 )
-def tester():
-  print("test sucess")
-tester()
 # Thank you for using LinearRegress, a sub-program of MathKit. Please use and distribute ethically.
 # you can read more about this in the file labled README.MD within this program folder
 # Written and developed in Python by Eli Hatton for Zinc Softwares 2020
