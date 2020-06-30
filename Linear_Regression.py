@@ -17,7 +17,8 @@ def add_datapoints():
     ask_done = input(f"Your datapoints so far: {datapoints}. Are you done entering points? [Y]es or [N]o: ")
     if ask_done == 'Y':
       done = True
-
+    elif ask_done == 'y':
+      done = True
 
 
 # The following three functions excecute the maths required to calculate the amount of error for a given dataset.
