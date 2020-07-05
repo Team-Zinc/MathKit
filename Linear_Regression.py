@@ -15,9 +15,7 @@ def add_datapoints():
     y = int(input("Y value: "))
     datapoints.append(make_point(x, y))
     ask_done = input(f"Your datapoints so far: {datapoints}. Are you done entering points? [Y]es or [N]o: ")
-    if ask_done == 'Y':
-      done = True
-    elif ask_done == 'y':
+    if ask_done.upper() == 'Y':
       done = True
 
 
