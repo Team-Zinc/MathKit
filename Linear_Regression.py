@@ -5,7 +5,7 @@
 # datapoints by entering [Y]es when prompted.
 datapoints = []
 def make_point(x, y):
-  return (x,y)
+  return (x, y)
 
 
 def add_datapoints():
@@ -50,7 +50,7 @@ def calculate_all_error(m, b, points):
 add_datapoints()
 
 
-# Creates lists for every possible value for the slope(m) and the y-intercept(b) 
+# Creates lists for every possible value for the slope(m) and the y-intercept(b)
 # between -100 and 100 (inclusive of 100) going up in incriments of 0.1
 possible_ms = [m * 0.1 for m in range(-100, 101)]
 possible_bs = [b * 0.1 for b in range(-100, 101)]
@@ -72,13 +72,15 @@ for m in possible_ms:
 print(f"""
 The best linear regression line for the datapoints {datapoints} 
 has a slope(m) of {best_m}, 
-a y-intercept(b) of {best_b}, 
+a y-intercept(b) of {best_b},
 and produces an error value of just {smallest_error}
-You can graph this line using it's slope(m) and y-intercept(b), 
-and you can represent it as an equation with Y=Mx + B. In this case, that's Y={best_m}x + {best_b}
+You can graph this line using it's slope(m) and y-intercept(b),
+and you can represent it as an equation with Y=Mx + B. 
+In this case, that's Y={best_m}x + {best_b}
 where Y and x represent any given point on the line.
 """
 )
-# Thank you for using LinearRegress, a sub-program of MathKit. Please use and distribute ethically.
+# Thank you for using LinearRegress, a sub-program of MathKit.
+# Please use and distribute ethically.
 # you can read more about this in the file labled README.MD within this program folder
-# Written and developed in Python by Eli Hatton for Zinc Softwares 2020
+# Written and developed in Python by Eli Hatton for Zinc Softwares 2020.
